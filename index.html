@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dennis Perremans - Cool pure css | js page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/styling/style.css">
+    </head>
+    <body>
+        <nav data-toggled="false" data-transitionable="false">
+            <div id="nav-logo-section" class="nav-section">
+                <a href="#">
+                    <i class="fa-solid fa-pizza-slice"></i>
+                </a>
+            </div>
+            <div id="nav-mobile-section">
+                <div id="nav-link-section" class="nav-section">
+                    <a href="#">ABOUT</a>
+                    <a href="#">WORK</a>
+                </div>
+                <div id="nav-social-section" class="nav-section">
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </div>
+                <div id="nav-contact-section" class="nav-section">
+                    <a href="mailto:perremansdennis@gmail.com">GET IN TOUCH</a>
+                </div>
+            </div>
+            <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+                <span>Menu</span>
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <main>
+            <article data-index="0" data-status="active">
+                <div class="article-image-section article-section"></div>
+                <div class="article-description-section article-section">
+                    <p> Hi, I'm Dennis Perremans,<br />
+                        Front-end developer with love for Wordpress.
+                    </p>
+                </div>
+                <div class="article-title-section article-section">
+                    <h2>Lorem ipsum doler tres sid amed</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                </div>
+                <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa fa-long-arrow-left"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+            <article data-index="1" data-status="inactive">
+                <div class="article-image-section article-section"></div>
+                <div class="article-description-section article-section">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo exercitationem mollitia eos repudiandae voluptatum corrupti laboriosam aliquid quis. Quis vitae nostrum, nihil architecto.</p>
+                </div>
+                <div class="article-title-section article-section">
+                    <h2>Lorem ipsum doler tres sid amed</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                </div>
+                <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa fa-long-arrow-left"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+            <article data-index="2" data-status="inactive">
+                <div class="article-image-section article-section"></div>
+                <div class="article-description-section article-section">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo exercitationem mollitia eos repudiandae voluptatum corrupti laboriosam aliquid quis. Quis vitae nostrum, nihil architecto.</p>
+                </div>
+                <div class="article-title-section article-section">
+                    <h2>Lorem ipsum doler tres sid amed</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                </div>
+                <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa fa-long-arrow-left"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+            <article data-index="3" data-status="inactive">
+                <div class="article-image-section article-section"></div>
+                <div class="article-description-section article-section">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem explicabo exercitationem mollitia eos repudiandae voluptatum corrupti laboriosam aliquid quis. Quis vitae nostrum, nihil architecto.</p>
+                </div>
+                <div class="article-title-section article-section">
+                    <h2>Lorem ipsum doler tres sid amed</h2>
+                    <i class="fa-light fa-plus-large"></i>
+                </div>
+                <div class="article-nav-section article-section">
+                    <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                        <i class="fa fa-long-arrow-left"></i>
+                    </button>
+                    <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+        </main>
+
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>
